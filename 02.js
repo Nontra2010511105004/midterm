@@ -13,7 +13,7 @@ function onClientRequest(request,response)
     let method = request.method
     let requrl = request.url
     
-    if(method === `GET` && requrl ===`/15003`){
+    if(method === `GET` && requrl ===`/morethen10`){
         response.write('player cannot collect this rewards')
     }
     else if(method === `POST` && requrl === `/404`){
